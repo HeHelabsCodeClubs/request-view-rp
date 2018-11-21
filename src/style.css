@@ -1,0 +1,47 @@
+.umuti-create-title {
+    color: #46CADF;
+    margin: 0 0 0 2rem;
+}
+.pharmacy-title {
+    width: 100%;
+    text-transform: uppercase;
+    margin: 1rem 0 0.2rem 2rem;
+}
+.pharmacy-subtitle {
+    color: #2f2f2f;
+    font-family: "Gotham Bold";
+    margin: 0 0 0.5rem 2rem;
+}
+.white-btn span:before {
+    margin: 0 0.5rem 0 0;
+    color: #0C7995;
+}
+.create-header .white-btn {
+    border: 1px solid #0C7995 !important
+}
+.bottom-total-wrapper {
+    padding: 1rem 0 0.5rem 0 !important;
+    background: #FEFBEA;
+    margin: 0 0 1rem 0 !important;
+}
+.bottom-total-wrapper .bottom-total {
+    border-top: 1px solid #f2f2f2;
+    margin: 0 0 0.5rem 0;
+}
+.bottom-total-wrapper .price {
+    font-size: 1rem;
+    font-family: "Gotham Bold";
+}
+.bottom-total-wrapper .title {
+    display: flex;
+    align-items: center;
+    font-family: "Gotham Light";
+    font-size: 0.7rem;
+}
+.bottom-total-wrapper .vat span {
+    background: #F9F2D3;
+    border-radius: 2rem;
+    padding: 0.1rem 0.8rem;
+    font-size: 0.8rem;
+}
+
