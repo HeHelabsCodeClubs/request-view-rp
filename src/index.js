@@ -24,7 +24,7 @@ class RequestViewRp extends Component {
             requestSubTitle,
             requestViewTable,
             pharmacyTitleColor,
-            suggest
+            approveBtn
         } = this.props;
         return(
             <div className={`row reset-row create-wrapper orderWrapper ${umutiView}`}>
@@ -34,15 +34,14 @@ class RequestViewRp extends Component {
                         <Tab><h5><span className="request-tab">{tabOneTitle}</span></h5></Tab>
                         <Tab><h5><span className="request-tab">{tabTwoTitle}</span></h5></Tab>
                     </TabList>
-                
                     <TabPanel>
                         <div className={`create-content shadow-box ${wrapperClass}`}>
                             <div className="create-header">
                                 <span className="umuti-create-title">{viewTitle}</span>
                                 <span>
                                     <span><button className="white-btn"><span className={buttonIconOne}></span>{buttonOneText}</button></span>
-                                    <span><button className="white-btn"><span className={buttonIconTwo}></span>{buttonTwoText}</button></span>
-                                    <span><button className="white-btn" onClick={suggest}><span className={buttonIconThree}></span>{buttonThreeText}</button></span>
+                                    {approveBtn}
+                                    <span><button className="white-btn"><span className={buttonIconThree}></span>{buttonThreeText}</button></span>
                                 </span>
                             </div>
                             <div className="row reset-row create-form form-container">
@@ -60,8 +59,8 @@ class RequestViewRp extends Component {
                                 <span className="umuti-create-title">{viewTitle}</span>
                                 <span>
                                     <span><button className="white-btn"><span className={buttonIconOne}></span>{buttonOneText}</button></span>
-                                    <span><button className="white-btn"><span className={buttonIconTwo}></span>{buttonTwoText}</button></span>
-                                    <span><button className="white-btn" onClick={suggest}><span className={buttonIconThree}></span>{buttonThreeText}</button></span>
+                                    {approveBtn}
+                                    <span><button className="white-btn"><span className={buttonIconThree}></span>{buttonThreeText}</button></span>
                                 </span>
                             </div>
                             <div className="row reset-row create-form form-container">
