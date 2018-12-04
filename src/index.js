@@ -14,17 +14,12 @@ class RequestViewRp extends Component {
             tabOneTitle,
             tabTwoTitle,
             viewTitle,
-            buttonOneText,
-            buttonTwoText,
-            buttonThreeText,
-            buttonIconOne,
-            buttonIconTwo,
-            buttonIconThree,
             requestTitle,
             requestSubTitle,
             requestViewTable,
             pharmacyTitleColor,
-            approveBtn
+            approveBtn,
+            approveSelecteBtn
         } = this.props;
         return(
             <div className={`row reset-row create-wrapper orderWrapper ${umutiView}`}>
@@ -39,9 +34,8 @@ class RequestViewRp extends Component {
                             <div className="create-header">
                                 <span className="umuti-create-title">{viewTitle}</span>
                                 <span>
-                                    <span><button className="white-btn"><span className={buttonIconOne}></span>{buttonOneText}</button></span>
+                                    {approveSelecteBtn}
                                     {approveBtn}
-                                    <span><button className="white-btn"><span className={buttonIconThree}></span>{buttonThreeText}</button></span>
                                 </span>
                             </div>
                             <div className="row reset-row create-form form-container">
@@ -58,9 +52,8 @@ class RequestViewRp extends Component {
                             <div className="create-header">
                                 <span className="umuti-create-title">{viewTitle}</span>
                                 <span>
-                                    <span><button className="white-btn"><span className={buttonIconOne}></span>{buttonOneText}</button></span>
+                                    {approveSelecteBtn}
                                     {approveBtn}
-                                    <span><button className="white-btn"><span className={buttonIconThree}></span>{buttonThreeText}</button></span>
                                 </span>
                             </div>
                             <div className="row reset-row create-form form-container">
