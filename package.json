@@ -1,6 +1,6 @@
 {
   "name": "request-view-rp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "\"a component to render umuti request view of a retail\"",
   "main": "dist/index.js",
   "scripts": {

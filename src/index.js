@@ -16,7 +16,8 @@ class RequestViewRp extends Component {
             viewTitle,
             requestTitle,
             requestSubTitle,
-            requestViewTable,
+            repliesViewTable,
+            suggestionViewTable,
             pharmacyTitleColor,
             approveBtn,
             approveSelecteBtn
@@ -42,7 +43,7 @@ class RequestViewRp extends Component {
                                 <div className="pharmacy-title" style={{color: pharmacyTitleColor}}>{requestTitle}</div>
                                 <div className="pharmacy-subtitle">{requestSubTitle}</div>
                                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-reset">
-                                    {requestViewTable}
+                                    {repliesViewTable}
                                 </div>
                             </div>
                         </div>
@@ -60,7 +61,7 @@ class RequestViewRp extends Component {
                                 <div className="pharmacy-title" style={{color: pharmacyTitleColor}}>{requestTitle}</div>
                                 <div className="pharmacy-subtitle">{requestSubTitle}</div>
                                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-reset">
-                                    {requestViewTable}
+                                    {suggestionViewTable}
                                 </div>
                             </div>
                         </div>
